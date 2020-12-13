@@ -18,3 +18,9 @@ we wil use this Data for our model. So since we know to save our time we use wei
 
 I did whole projet on Google colab, since it provides free GPU with good speed.
 
+Environment set-up- This is one of the important steps before training the model on collected images and annotations(labels), as I will use ‘Matterport Mask R-CNN’ repositoryto leverage a few pre-trained CNN n/w weight matrices built on different standard datasets like COCO dataset, ImageNet etc. and custom functions such as, data processing and preparation, configuration setup, model training, creating log-file to save iteration wise weight-matrix objects & n/w losses, object detection, masking detected localized areas etc. To run the custom training function on the images and annotations, we need to first clone the repository.
+
+Now go through the python colab file for the required code and other information.
+
+
+
